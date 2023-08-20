@@ -1,0 +1,66 @@
+/* ==========================================================================
+   ABOUT
+   ========================================================================== */
+
+
+   .lab-acronym {
+    margin: 0;
+    margin-bottom: 1em;
+    font-size: $type-size-3;
+    color: mix(#fff, #000, 75%);
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .news-header {
+    margin: 0;
+    margin-bottom: 0.5em;
+    font-size: $type-size-3;
+    color: mix(#fff, #000, 75%);
+    font-weight: 900;
+    font-style: italic;
+  }
+
+
+  .news-item-wrapper {
+    width: 100%;
+    overflow: hidden; /* will contain if #first is longer than #second */
+  }
+
+  #latest-news-list ul {
+    font-size: $type-size-6;
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+  }
+
+  #latest-news-list ul li {
+    margin: 0px;
+  }
+
+  .news-item-date {
+    width: 17%;
+    color: $april-light-teal;
+    font-weight: 900;
+    float:left;
+    text-align: right;
+  }
+
+  .news-item-text {
+    overflow: hidden;
+    padding-left: 7px;
+  }
+
+  .news-item-text p {
+    margin: 0px;
+  }
+
+
+  .pubs-header {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: $type-size-3;
+    color: mix(#fff, #000, 75%);
+    font-weight: 900;
+    font-style: italic;
+  }

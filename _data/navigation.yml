@@ -1,0 +1,14 @@
+# main links links
+main:
+
+  - title: "people"
+    url: /people/
+    
+  - title: "publications"
+    url: /publications/
+
+  - title: "talks"
+    url: /talks/    
+    
+  - title: "code"
+    url: /markdown/

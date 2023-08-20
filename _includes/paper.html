@@ -1,0 +1,37 @@
+{% assign post = include.post %}
+<div class="paper">
+  <div class="paper-data">
+    <div class="paper-meta">
+    <div class="paper-venue">
+      {{ post.venue }}
+    </div>
+    <div class="tags">
+      {%- for t in post.tags -%}
+      <span class={{t}}><a href="{{site.topics_page[t]}}#{{t}}">{{t}}</a></span>
+      {%- endfor -%}
+    </div>
+    </div>
+      <div class="paper-title">
+      {{ post.title | escape}}
+      </div>
+    <div class="paper-authors">
+      {{ post.authors }}
+    </div>
+    <div class="paper-details">[ <a href="{{ post.pdf }}">paper </a>  {%- if post.supplemental -%}
+       | <a href="#" class="supplemental">supplemental </a> 
+      {%- endif -%}      {%- if post.code -%}       | <a href="{{ post.code }}">code </a> 
+      {%- endif -%}      {%- if post.bibtex -%}       | <a href="#{{post.ref}}" class="bibtex">bibtex </a>
+      {%- endif -%}      {%- if post.abstract -%}       | <a href="#{{post.ref}}" class="abstract">abstract </a>      {%- endif -%}     ]
+    <div class="paper-abstract">
+      <pre><code>
+          {{ post.abstract | lstrip  }}
+      </code></pre>
+    </div>
+    <div class="paper-bibtex">
+      <pre><code>
+          {{ post.bibtex | lstrip }}                
+      </code></pre>
+    </div>
+    </div>
+  </div>
+</div>

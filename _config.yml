@@ -137,6 +137,7 @@ exclude:
   - CHANGELOG
   - Capfile
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - LICENSE
   - README
@@ -151,6 +152,8 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - ruby
+  
 keep_files:
   - .git
   - .svn

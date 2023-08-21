@@ -5,7 +5,7 @@ permalink: "publications/ahmed2022spl"
 title:  "Semantic Probabilistic Layers for Neuro-Symbolic Learning"
 date:   2022-12-04 00:00
 tags: nesy circuits constraints
-image: ""
+image: "/images/papers/ahmed2022spl/spl.png"
 authors: "Kareem Ahmed, Stefano Teso, Kai-Wei Chang, Guy Van den Broeck, Antonio Vergari"
 pdf: "https://proceedings.neurips.cc/paper_files/paper/2022/file/c182ec594f38926b7fcb827635b9a8f4-Paper-Conference.pdf"
 venue: "NeurIPS 2022"

@@ -101,12 +101,13 @@
 
 .paper-details a{
     text-decoration: none !important;
+    font-size: $type-size-6;
 }
 
 .paper-title{
     font-size: 120%;
     font-weight:800;
-    font-style:italic;
+    // font-style:italic;
     /* background-color: rgb(250, 130, 0); */
     /* color: white !important; */
     // color: rgb(26, 176, 184) !important;
@@ -127,7 +128,11 @@
 .paper-authors{
     font-size: 80%;
     font-weight:200;
-    font-style:italic;
+    // font-style:italic;
+}
+
+.paper-tldr{
+    font-size: $type-size-5;
 }
 
 .paper-short{

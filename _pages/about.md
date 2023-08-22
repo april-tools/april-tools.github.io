@@ -29,3 +29,24 @@ We are a research lab focused on investigating probabilistic models and programs
 </div>
 
 <div class="pubs-header">selected works</div>
+<div class="slideshow-container">
+  {% for post in site.publications %}
+    {% if post.spotlight %}
+      <div class="spotlight-slide fade">
+        <!-- <div class="numbertext">1 / 3</div> -->
+        <a href="/publications/{{post.ref}}"><img src="{{post.spotlight}}" style="width:100%"></a>
+        <div class="text">{{post.excerpt}}</div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+<br>
+
+
+<div style="text-align:center">
+  {% for post in site.publications %}
+    {% if post.spotlight %}
+    <span class="dot"></span> 
+    {% endif %}
+  {% endfor %}
+</div>

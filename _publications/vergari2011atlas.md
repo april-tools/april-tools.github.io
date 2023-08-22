@@ -6,6 +6,7 @@ title:  "A Compositional Atlas of Tractable Circuit Operations for Probabilistic
 date:   2021-12-04 00:00
 tags: circuits inference theory
 image: "/images/papers/vergari2021atlas/atlas.png"
+spotlight: "/images/papers/vergari2021atlas/atlas.png"
 authors: "Antonio Vergari, YooJung Choi, Anji Liu, Stefano Teso, Guy Van den Broeck"
 url: https://papers.nips.cc/paper/2021/hash/6e01383fd96a17ae51cc3e15447e7533-Abstract.html
 pdf: "https://papers.nips.cc/paper_files/paper/2021/file/6e01383fd96a17ae51cc3e15447e7533-Paper.pdf"

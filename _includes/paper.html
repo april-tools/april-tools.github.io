@@ -16,6 +16,7 @@
             <a href="{{post.url}}">{{ post.title | escape}}</a>
           {%- else -%}
         {{ post.title | escape}}
+          {%- endif -%}  
         </div>
       <div class="paper-authors">
         {{ post.authors }}

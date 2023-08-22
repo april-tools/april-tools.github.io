@@ -12,6 +12,9 @@
       </div>
       </div>
         <div class="paper-title">
+          {%- if post.url -%}
+            <a href="{{post.url}}">{{ post.title | escape}}</a>
+          {%- else -%}
         {{ post.title | escape}}
         </div>
       <div class="paper-authors">

@@ -70,25 +70,36 @@
    ============================================================================*/
 
 * {box-sizing: border-box;}
-.spotlight-slide {display: none;}
-img {vertical-align: middle;}
+.spotlight-slide {
+  display: none; 
+  align:left;
+}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 80%;
+  max-height: 20%;
   position: relative;
   margin: auto;
+  align: left;
 }
 
 /* Caption text */
-.text {
-  color: mix(#fff, #000, 75%);
-  font-size: $type-size-5;
+.slideshow-container .text {
+  color: mix(#fff, #000, 45%);
+  font-size: $type-size-6;
+  font-style: italic;
   padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+  // position: absolute;
+  // bottom: 8px;
   width: 100%;
-  text-align: center;
+  text-align: left;
+}
+
+.spotlight-slide img {
+  vertical-align: middle;
+  width: auto;
+  height: 300px;
 }
 
 /* Number text (1/3 etc) */
@@ -102,8 +113,8 @@ img {vertical-align: middle;}
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 15px;
-  width: 15px;
+  height: 5px;
+  width: 5px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;

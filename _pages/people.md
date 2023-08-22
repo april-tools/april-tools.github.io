@@ -1,5 +1,5 @@
 ---
-permalink: /people
+permalink: /people/
 title: ""
 excerpt: "APRIL members"
 author_profile: true

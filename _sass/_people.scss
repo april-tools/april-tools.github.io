@@ -1,0 +1,22 @@
+#current-members{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+
+.lab-member{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.lab-member-pic {
+    width: 50%;
+    float:left; 
+}
+
+.lab-member-data {
+    width: 80%;
+    overflow: hidden;
+    padding-left: 10px;
+}

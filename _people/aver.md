@@ -5,7 +5,7 @@ permalink: "/people/aver"
 title: 
 name:  "Antonio Vergari"
 date:   2021-09-01 00:00
-image: "/images/papers/loconte2023gekcs/gekcs.png"
+image: "/images/people/aver.jpg"
 role: "PI"
 url: "http:nolovedeeplearning.com"
 ---

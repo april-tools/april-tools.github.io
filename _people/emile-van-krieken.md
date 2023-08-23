@@ -8,5 +8,5 @@ date:   2023-09-01 00:00
 image: "/images/bio-photo.jpg"
 role: "Postdoc"
 cosupervisor: "Pasquale Minervini, Edoardo Ponti"
-url: "https://emilevankrieken.com/"
+webpage: "https://emilevankrieken.com/"
 ---

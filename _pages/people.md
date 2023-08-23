@@ -14,7 +14,7 @@ author_profile: true
           <img src="{{post.image}}">
           </div>
           <div class="lab-member-data">
-              <div class="member-name"><a href="{{post.url}}">{{post.name}}</a></div>
+              <div class="member-name"><a href="{{post.webpage}}">{{post.name}}</a></div>
               <div class="member-role">{{post.role}}</div>
               {% if post.firstsupervisor %}
               <div class="member-role-sup">1st supervisor: {{post.firstsupervisor}}</div>

@@ -8,5 +8,5 @@ date:   2023-06-01 00:00
 image: "/images/bio-photo.jpg"
 role: "PhD Student"
 firstsupervisor: "Ajitha Rajan"
-url: ""
+webpage: ""
 ---

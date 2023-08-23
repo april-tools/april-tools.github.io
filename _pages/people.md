@@ -8,27 +8,39 @@ author_profile: true
 <h1>current members</h1>
 <div id="current-members">
   {% for post in site.people %}
-    <div class="lab-member">
-        <div class="lab-member-pic">
-        <img src="{{post.image}}">
-        </div>
-        <div class="lab-member-data">
-            <div class="member-name"><a href="{{post.url}}">{{post.name}}</a></div>
-            <div class="member-role">{{post.role}}</div>
-            {% if post.firstsupervisor %}
-            <div class="member-role-sup">1st supervisor: {{post.firstsupervisor}}</div>
-            {% endif %}
-            {% if post.secondsupervisor %}
-            <div class="member-role-sup">2nd supervisor: {{post.secondsupervisor}}</div>
-            {% endif %}
-            {% if post.cosupervisor %}
-            <div class="member-role-sup">co-supervised w/ {{post.cosupervisor}}</div>
-            {% endif %}
-        </div>
-    </div>
+    {% if post.role == "PI" or post.role == "PhD Student" or post.role == "Postdoc" or post.role == "Research Assistant"%}
+      <div class="lab-member">
+          <div class="lab-member-pic">
+          <img src="{{post.image}}">
+          </div>
+          <div class="lab-member-data">
+              <div class="member-name"><a href="{{post.url}}">{{post.name}}</a></div>
+              <div class="member-role">{{post.role}}</div>
+              {% if post.firstsupervisor %}
+              <div class="member-role-sup">1st supervisor: {{post.firstsupervisor}}</div>
+              {% endif %}
+              {% if post.secondsupervisor %}
+              <div class="member-role-sup">2nd supervisor: {{post.secondsupervisor}}</div>
+              {% endif %}
+              {% if post.cosupervisor %}
+              <div class="member-role-sup">co-supervised w/ {{post.cosupervisor}}</div>
+              {% endif %}
+          </div>
+      </div>
+    {% endif%}
   {% endfor %}
 </div>
 
 <h1>visitors & interns</h1>
-
-<h1>past members</h1>
+<div id="visitors-interns">
+  <ul id="visitor-list">
+    {% for post in site.people %}
+        {% if post.role == "Visitor"%}
+        <li> <a href="{{post.url}}">{{post.name}}</a> <b>[{{post.period}}]</b> <span><i>{{post.affiliation}}</i></span>
+        </li>
+        {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+ 
+<!--<h1>past members</h1> -->

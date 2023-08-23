@@ -1,11 +1,11 @@
 ---
 collection: people
-ref: "andreas"
+ref: "andreas-grivas"
 permalink: "/people/andreas-grivas"
 title: 
 name:  "Andreas Grivas"
 date:   2021-12-01 00:00
-image: "/images/bio-photo.jpg"
+image: "https://grv.unargmaxable.ai/static/images/me2021s.jpg"
 role: "PhD Student"
 firstsupervisor: "Adam Lopez"
 webpage: "https://grv.unargmaxable.ai/"

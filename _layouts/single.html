@@ -52,6 +52,7 @@ layout: default
         </header>
       {% endunless %}
 
+      {% if page.collection == "publications" %}
       <div class="paper-attr"><b>Authors:</b> {{page.authors}}</div>
       <div class="paper-attr"><b>Project URL:</b> <a href="{{page.paperurl}}">{{page.paperurl}}</a></div>
       {% if page.supplemental %}
@@ -65,6 +66,7 @@ layout: default
       {% if page.video %}<div class="paper-attr"><b>Talk:</b> <a href="{{page.video}}">{{page.video}}</a></div>{% endif %}
       {% if page.abstract %}<div class="paper-attr"><b>Abstract:</b> {{page.abstract}}</div>{% endif %}
       {% if page.bibtex %}<div class="paper-attr"><b>Bibtex:</b><br/> <pre>{{page.bibtex}}</pre></div>{% endif %}
+      {% endif %}
 
       <section class="page__content" itemprop="text">
         {{ content }}

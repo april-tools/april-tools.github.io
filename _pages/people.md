@@ -36,7 +36,7 @@ author_profile: true
   <ul id="visitor-list">
     {% for post in site.people %}
         {% if post.role == "Visitor"%}
-        <li> <a href="{{post.url}}">{{post.name}}</a> <b>[{{post.period}}]</b> <span><i>{{post.affiliation}}</i></span>
+        <li> <a href="{{post.webpage}}">{{post.name}}</a> <b>[{{post.period}}]</b> <span><i>{{post.affiliation}}</i></span>
         </li>
         {% endif %}
     {% endfor %}

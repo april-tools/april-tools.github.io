@@ -3,7 +3,7 @@
     width: 120%;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .lab-member{
@@ -37,4 +37,12 @@
 .member-role-sup{
     font-size: $type-size-6;
     font-style: italic;
+}
+
+#visitor-list li {
+    font-size: $type-size-6;
+}
+
+#visitor-list a{
+    font-weight: 600;
 }

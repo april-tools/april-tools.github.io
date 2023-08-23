@@ -8,7 +8,7 @@ tags: circuits inference theory
 image: "/images/papers/vergari2021atlas/atlas.png"
 spotlight: "/images/papers/vergari2021atlas/atlas-spotlight.png"
 authors: "Antonio Vergari, YooJung Choi, Anji Liu, Stefano Teso, Guy Van den Broeck"
-url: https://papers.nips.cc/paper/2021/hash/6e01383fd96a17ae51cc3e15447e7533-Abstract.html
+paperurl: https://papers.nips.cc/paper/2021/hash/6e01383fd96a17ae51cc3e15447e7533-Abstract.html
 pdf: "https://papers.nips.cc/paper_files/paper/2021/file/6e01383fd96a17ae51cc3e15447e7533-Paper.pdf"
 venue: "NeurIPS 2021"
 code: "https://github.com/UCLA-StarAI/circuit-ops-atlas"

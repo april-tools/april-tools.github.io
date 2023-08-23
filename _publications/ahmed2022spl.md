@@ -8,7 +8,7 @@ tags: nesy circuits constraints
 image: "/images/papers/ahmed2022spl/spl.png"
 spotlight: "/images/papers/ahmed2022spl/spl-spotlight.png"
 authors: "Kareem Ahmed, Stefano Teso, Kai-Wei Chang, Guy Van den Broeck, Antonio Vergari"
-url: "https://proceedings.neurips.cc/paper_files/paper/2022/hash/c182ec594f38926b7fcb827635b9a8f4-Abstract-Conference.html"
+paperurl: "https://proceedings.neurips.cc/paper_files/paper/2022/hash/c182ec594f38926b7fcb827635b9a8f4-Abstract-Conference.html"
 pdf: "https://proceedings.neurips.cc/paper_files/paper/2022/file/c182ec594f38926b7fcb827635b9a8f4-Paper-Conference.pdf"
 venue: "NeurIPS 2022"
 code: "https://github.com/KareemYousrii/SPL"

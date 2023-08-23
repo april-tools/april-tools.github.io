@@ -1,4 +1,4 @@
-Source code for the website of the [APRIL research lab](april-tools.github.io) at the [School of Informatics](https://www.ed.ac.uk/informatics), [University of Edinburgh](https://www.ed.ac.uk), UK.
+Source code for the website of the [APRIL research lab](https://april-tools.github.io) at the [School of Informatics](https://www.ed.ac.uk/informatics), [University of Edinburgh](https://www.ed.ac.uk), UK.
 
 ## How to contribute
 

@@ -7,8 +7,8 @@ main:
   - title: "publications"
     url: /publications/
 
-  - title: "talks"
-    url: /talks/    
+  # - title: "talks"
+  #   url: /talks/    
     
   - title: "code"
     url: https://github.com/april-tools

@@ -1,7 +1,9 @@
 #current-members{
     display: grid;
+    width: 120%;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
+    margin-bottom: 20px;
 }
 
 .lab-member{
@@ -19,4 +21,20 @@
     width: 80%;
     overflow: hidden;
     padding-left: 10px;
+}
+
+.member-name{
+    font-size: $type-size-5;
+    font-weight: 800;
+}
+
+.member-role{
+    font-size: $type-size-6;
+    color: $soundcloud-color;
+    font-weight: 600;
+}
+
+.member-role-sup{
+    font-size: $type-size-6;
+    font-style: italic;
 }

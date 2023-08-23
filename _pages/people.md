@@ -22,7 +22,7 @@ author_profile: true
             <div class="member-role-sup">2nd supervisor: {{post.secondsupervisor}}</div>
             {% endif %}
             {% if post.cosupervisor %}
-            <div class="member-role-sup">co-supervisor: {{post.cosupervisor}}</div>
+            <div class="member-role-sup">co-supervised w/ {{post.cosupervisor}}</div>
             {% endif %}
         </div>
     </div>

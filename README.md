@@ -64,3 +64,22 @@ Optional keys are:
   - `date` date of the news (used to order news)  
 
   The body of the news can be written in html/md in the markdown `content` section.
+
+## How to preview the website on your local machine
+
+1. [Install Ruby (see Guides depending on OS)](https://jekyllrb.com/docs/installation/)
+2. Clone the repo and move to it
+```bash
+git clone https://github.com/april-tools/april-tools.github.io
+cd april-tools.github.io
+```
+3. [Install Jekyll](https://jekyllrb.com/docs/)
+```bash
+# Install jekyll related packages
+gem install jekyll bundler
+bundle add webrick
+# Run the server
+bundle exec jekyll serve
+```
+4. Navigate to [localhost:4000](http://localhost:4000/)
+

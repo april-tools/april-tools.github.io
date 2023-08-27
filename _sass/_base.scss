@@ -313,3 +313,18 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+
+#lab-acronym {
+  margin: 0;
+  margin-bottom: 1em;
+  font-size: $type-size-3;
+  color: mix(#fff, #000, 75%);
+  font-weight: 900;
+  font-style: italic;
+  line-height: 1.1em;
+}
+
+#lab-acronym hlgt {
+  color: $april-light-teal !important;
+}

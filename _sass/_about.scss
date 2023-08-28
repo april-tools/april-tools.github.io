@@ -90,7 +90,8 @@
 .spotlight-slide img {
   vertical-align: middle;
   width: auto;
-  height: 300px;
+  max-height: 400px;
+  object-fit: cover;
 }
 
 /* Number text (1/3 etc) */

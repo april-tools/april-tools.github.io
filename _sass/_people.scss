@@ -6,6 +6,26 @@
     margin-bottom: 40px;
 }
 
+/* On smaller screens, 1 column grid */
+@media only screen and (max-width: 500px) {
+    #current-members{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 40px;
+    }
+  }
+
+  @media only screen and (min-width: 500px) and (max-width: 1024px) {
+    #current-members{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        margin-bottom: 40px;
+    }
+  }
+
 .lab-member{
     width: 100%;
     overflow: hidden;

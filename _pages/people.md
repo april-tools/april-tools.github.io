@@ -11,7 +11,7 @@ author_profile: true
     {% if post.role == "PI" or post.role == "PhD Student" or post.role == "Postdoc" or post.role == "Research Assistant"%}
       <div class="lab-member">
           <div class="lab-member-pic">
-          <img src="{{post.image}}">
+          <img style="margin: 10px 0px 0px 0px;" src="{{post.image}}">
           </div>
           <div class="lab-member-data">
               <div class="member-name"><a href="{{post.webpage}}">{{post.name}}</a></div>

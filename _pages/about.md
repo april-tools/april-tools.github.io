@@ -37,10 +37,10 @@ We are a research lab focused on investigating probabilistic models and programs
       </div>
     {% endif %}
   {% endfor %}
+    <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
-<br>
-
-
 <div style="text-align:center">
   {% for post in site.publications %}
     {% if post.spotlight %}
@@ -51,22 +51,52 @@ We are a research lab focused on investigating probabilistic models and programs
 
 <script>
   let slideIndex = 0;
-  showSlides();
+  showSlides(slideIndex);
   
-  function showSlides() {
+  function plusSlides(n) {
+  showSlides(slideIndex += n);
+  }
+
+  
+  
+  function showSlides(n=0) {
     let i;
     let slides = document.getElementsByClassName("spotlight-slide");
     let dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+
+    if (n == 0)
+    {
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      
+      if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 10000); /* Change image every 10 seconds */
     }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+    
+    else
+    {
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+
+      if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
     }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 10000); /* Change image every 10 seconds */
   }
   </script>

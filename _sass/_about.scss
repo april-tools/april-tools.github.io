@@ -59,7 +59,7 @@
   }
 
   .pubs-header {
-    margin-top: 1em;
+    margin-top: 10px;
     margin-bottom: 0.5em;
     font-size: $type-size-3;
     color: mix(#fff, #000, 75%);
@@ -80,7 +80,7 @@
 /* Slideshow container */
 .slideshow-container {
   max-width: 80%;
-  max-height: 20%;
+  max-height: 17%;
   position: relative;
   margin: auto;
   align: left;
@@ -101,7 +101,7 @@
 .spotlight-slide img {
   vertical-align: middle;
   width: auto;
-  max-height: 400px;
+  max-height: 300px;
   object-fit: cover;
 }
 
@@ -127,6 +127,35 @@
 
 .active {
   background-color: #717171;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Fading animation */

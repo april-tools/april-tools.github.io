@@ -14,7 +14,8 @@ We are a research lab focused on investigating probabilistic models and programs
 <div class="news-header">latest news</div>
 <div id="latest-news-list">
   <ul>
-  {% for post in site.news reversed limit:10 %}
+  {% assign news = site.news | reverse %}
+  {% for post in news limit:5 %}
     <li><div class="news-item-wrapper">
             <span class="news-item-date">[{{post.date | date_to_string: "ordinal"}}]</span>
             <div class="news-item-text">{{post}}</div>

@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: "about april"
+excerpt: "about APRIL"
 author_profile: true
 redirect_from: 
   - /about/
@@ -11,7 +11,7 @@ redirect_from:
 
 We are a research lab focused on investigating probabilistic models and programs that are reliable and efficient. We are based at the <a href="https://www.ed.ac.uk/informatics">School of Informatics</a>, <a href="https://www.ed.ac.uk">University of Edinburgh</a> within the <a href="https://web.inf.ed.ac.uk/anc">Institute for Adaptive and Neural Computations (ANC)</a>.
 
-<div class="news-header">news</div>
+<div class="news-header">latest news</div>
 <div id="latest-news-list">
   <ul>
   {% for post in site.news reversed limit:10 %}
@@ -23,6 +23,7 @@ We are a research lab focused on investigating probabilistic models and programs
   {% endfor %}
   </ul>
 </div>
+<div id="news-archive"><a href="/news">older news</a></div>
 
 <div class="pubs-header">selected works</div>
 <div class="slideshow-container">

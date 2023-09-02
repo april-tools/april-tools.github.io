@@ -27,6 +27,7 @@
 
   #latest-news-list ul li {
     margin: 0px;
+    padding-bottom: 5px;
   }
 
   .news-item-date {
@@ -46,6 +47,16 @@
     margin: 0px;
   }
 
+  #news-archive{
+    padding-top: 10px;
+    text-align: right;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  #news-archive a{
+    color: $april-scottish-salmon !important;
+  }
 
   .pubs-header {
     margin-top: 1em;

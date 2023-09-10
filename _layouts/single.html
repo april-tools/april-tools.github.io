@@ -37,7 +37,7 @@ layout: default
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i> </p>
+          <p class="paper-attr">Published in <i><b>{{ page.venue }}</b></i> </p>
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -53,6 +53,13 @@ layout: default
       {% endunless %}
 
       {% if page.collection == "publications" %}
+
+      {% if page.spotlight %}
+      <div class="spotlight-slide project-page">
+        <img src="{{page.spotlight}}">
+      </div>
+      {% endif %}
+
       <div class="paper-attr"><b>Authors:</b> {{page.authors}}</div>
       <div class="paper-attr"><b>Project URL:</b> <a href="{{page.paperurl}}">{{page.paperurl}}</a></div>
       {% if page.supplemental %}
@@ -64,8 +71,10 @@ layout: default
       {% if page.code %}<div class="paper-attr"><b>Code:</b> <a href="{{page.code}}">{{page.code}}</a></div>{% endif %}
       {% if page.poster %}<div class="paper-attr"><b>Poster:</b> <a href="{{page.poster}}">{{page.poster}}</a></div>{% endif %}
       {% if page.video %}<div class="paper-attr"><b>Talk:</b> <a href="{{page.video}}">{{page.video}}</a></div>{% endif %}
+      <br/>
       {% if page.abstract %}<div class="paper-attr"><b>Abstract:</b> {{page.abstract}}</div>{% endif %}
-      {% if page.bibtex %}<div class="paper-attr"><b>Bibtex:</b><br/> <pre>{{page.bibtex}}</pre></div>{% endif %}
+      <br/>
+      {% if page.bibtex %}<div class="paper-attr"><b>Bibtex:</b><pre>{{page.bibtex}}</pre></div>{% endif %}
       {% endif %}
 
       <section class="page__content" itemprop="text">

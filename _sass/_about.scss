@@ -77,13 +77,21 @@
   align:left;
 }
 
+.project-page{
+  display: block !important;
+  width: 80%;
+  max-height: 20%;
+  position: relative;
+  margin: auto;
+  align: left;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 80%;
   max-height: 17%;
   position: relative;
   margin: auto;
-  align: left;
 }
 
 /* Caption text */

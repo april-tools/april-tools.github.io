@@ -99,8 +99,11 @@
 }
 
 .spotlight-slide img {
+  display: block;
+  margin: auto;
   vertical-align: middle;
   width: auto;
+  text-align: center;
   max-height: 300px;
   object-fit: cover;
 }

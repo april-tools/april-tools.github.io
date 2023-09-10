@@ -34,7 +34,7 @@ author_profile: true
 <h1>visitors & interns</h1>
 <div id="visitors-interns">
   <ul id="visitor-list">
-    {% for post in site.people %}
+    {% for post in site.people reversed %}
         {% if post.role == "Visitor"%}
         <li> <a href="{{post.webpage}}">{{post.name}}</a> <b>[{{post.period}}]</b> <span><i>{{post.affiliation}}</i></span>
         </li>

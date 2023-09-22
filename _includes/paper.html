@@ -3,7 +3,11 @@
   <div class="paper-data">
     <div class="paper-meta">
       <div class="paper-venue">
-        {{ post.venue }}
+        {% if post.award %}
+          <note>{{ post.venue }} {{ post.award }}</note>
+        {% else %}
+          {{ post.venue }}
+        {% endif %}
       </div>
       <div class="tags">
         {%- for t in post.tags -%}

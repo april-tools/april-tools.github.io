@@ -3,7 +3,7 @@ collection: publications
 ref: "marconato2023shortcuts"
 permalink: "publications/marconato2023shortcuts"
 title:  "Not All Neuro-Symbolic Concepts Are Created Equal: Analysis and Mitigation of Reasoning Shortcuts"
-date:   2023-06-23 00:10
+date:   2023-09-22 00:00
 tags: nesy reasoning robustness
 image: "/images/papers/marconato2023shortcuts/shortcuts.png"
 authors: "Emanuele Marconato, Stefano Teso, Antonio Vergari, Andrea Passerini"

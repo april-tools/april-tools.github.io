@@ -3,7 +3,7 @@ collection: publications
 ref: "loconte2023gekcs"
 permalink: "publications/loconte2023gekcs"
 title:  "How to Turn Your Knowledge Graph Embeddings into Generative Models via Probabilistic Circuits"
-date:   2023-07-04 00:00
+date:   2023-09-22 01:00
 tags: nesy kge circuits constraints
 image: "/images/papers/loconte2023gekcs/gekcs.png"
 spotlight: "/images/papers/loconte2023gekcs/gekcs-spotlight.png"

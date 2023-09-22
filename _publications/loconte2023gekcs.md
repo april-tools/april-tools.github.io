@@ -10,7 +10,7 @@ spotlight: "/images/papers/loconte2023gekcs/gekcs-spotlight.png"
 authors: "Lorenzo Loconte, Nicola Di Mauro, Robert Peharz, Antonio Vergari"
 paperurl: "https://arxiv.org/abs/2305.15944"
 pdf: "https://arxiv.org/pdf/2305.15944.pdf"
-venue: "arXiv 2023"
+venue: "NeurIPS 2023"
 award: "oral"
 code:
 excerpt: "KGE models such as CP, RESCAL, TuckER, ComplEx can be re-interpreted as circuits to unlock their generative capabilities, scaling up inference and learning and guaranteeing the satisfaction of logical constraints by design."

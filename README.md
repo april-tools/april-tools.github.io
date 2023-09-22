@@ -46,6 +46,7 @@ Optional keys are:
   - `supplemental` link to the paper supplemental material
   - `code` link to the code released with the paper
   - `poster` link to the paper poster
+  - `award` to specify if the paper got an award (e.g. `oral`|`spotlight`|...)
   - `video` link to the paper video presentation or relative talk
   - `abstract` the paper abstract, as a single string
   - `bibtex` a string for the bibtex entry (mind to put `<br/>` tags for newlines)

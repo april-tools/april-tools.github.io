@@ -4,7 +4,7 @@
     <div class="paper-meta">
       <div class="paper-venue">
         {% if post.award %}
-          <note>{{ post.venue }} {{ post.award }}</note>
+          {{ post.venue }} <note>{{ post.award }}</note>
         {% else %}
           {{ post.venue }}
         {% endif %}

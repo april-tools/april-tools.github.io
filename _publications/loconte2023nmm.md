@@ -6,7 +6,6 @@ title:  "Negative Mixture Models via Squaring: Representation and Learning"
 date:   2023-08-18 00:00
 tags: circuits probml
 image: "/images/papers/loconte2023nmm/nmm.png"
-spotlight: "/images/papers/loconte2023nmm/nmm-spotlight.png"
 authors: "Lorenzo Loconte, Stefan Mengel, Nicolas Gillis, Antonio Vergari"
 paperurl: "https://openreview.net/forum?id=uTAzte88a2"
 pdf: "https://openreview.net/pdf?id=uTAzte88a2"

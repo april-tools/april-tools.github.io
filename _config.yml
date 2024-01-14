@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "april"
+title                    : "april Research Lab"
 title_separator          : "-"
 name                     : &name "april"
-description              : &description "APRIL personal description"
+description              : &description "APRIL Research Lab in Edinburgh, We design probabilistic ML systems that are #provably #reliable in the #wild by combining #complex #reasoning with #efficient #inference and #learning."
 url                      : "" # "https://academicpages.github.io" # //127.0.0.1:4000/ # april-tools.github.io # "http://127.0.0.1:4000/" # the base hostname & protocol for your site 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "april-tools/april-tools.github.io"
@@ -32,7 +32,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "main" # , "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -75,7 +75,7 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+  tracking_id          :
 
 
 # Site Author

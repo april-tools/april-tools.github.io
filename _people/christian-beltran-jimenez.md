@@ -8,5 +8,5 @@ date:   2023-09-04 00:00
 image: "/images/people/cjb-photo.jpg"
 role: "PhD Student"
 firstsupervisor: "Kostas Zygalakis, Aretha Teckentrup"
-webpage: 
+webpage: "https://christianjzb.github.io/ChristianJB/"
 ---

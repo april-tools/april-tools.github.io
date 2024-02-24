@@ -2,6 +2,7 @@
 permalink: /
 title: ""
 excerpt: "about APRIL"
+# description: "april lab, april research lab, Edinburgh"
 author_profile: true
 redirect_from: 
   - /about/

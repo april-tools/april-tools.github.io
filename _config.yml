@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "april Research Lab"
+title                    : "april Lab"
 title_separator          : "-"
 name                     : &name "april"
 description              : &description "APRIL Research Lab in Edinburgh, We design probabilistic ML systems that are provably reliable in the #wild by combining complex reasoning with efficient inference and learning."

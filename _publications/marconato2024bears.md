@@ -4,7 +4,7 @@ ref: "marconato2024bears"
 permalink: "publications/marconato2024bears"
 title:  "BEARS Make Neuro-Symbolic Models Aware of their Reasoning Shortcuts"
 date:   2024-02-19 00:00
-tags: nesy shortcuts reasoning uncertainty-quantification
+tags: nesy shortcuts reasoning uq
 image: "/images/papers/marconato2024bears/bears.png"
 authors: "Emanuele Marconato, Samuele Bortolotti, Emile van Krieken, Antonio Vergari, Andrea Passerini, Stefano Teso"
 paperurl: "https://arxiv.org/abs/2402.12240"

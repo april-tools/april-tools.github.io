@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 
-We are a research lab focused on investigating probabilistic models and programs that are reliable and efficient. We are based at the <a href="https://www.ed.ac.uk/informatics">School of Informatics</a>, <a href="https://www.ed.ac.uk">University of Edinburgh</a> within the <a href="https://web.inf.ed.ac.uk/anc">Institute for Adaptive and Neural Computations (ANC)</a>.<br/>
+We are a research lab focused on investigating probabilistic models and programs that are reliable and efficient. We are based at the <a href="https://www.ed.ac.uk/informatics">School of Informatics</a>, <a href="https://www.ed.ac.uk">University of Edinburgh</a> within the <a href="https://web.inf.ed.ac.uk/anc">Institute for Adaptive and Neural Computations (ANC)</a>.
 
 <div class="research-tags">#probabilistic-modeling #neuro-symbolic-AI #constraints #tractable-inference #circuits</div>
 

@@ -31,7 +31,7 @@ We are a research lab focused on investigating probabilistic models and programs
 
 <div class="pubs-header">selected works</div>
 <div class="slideshow-container">
-  {% for post in site.publications %}
+  {% for post in site.publications reversed %}
     {% if post.spotlight %}
       <div class="spotlight-slide fade">
         <!-- <div class="numbertext">1 / 3</div> -->

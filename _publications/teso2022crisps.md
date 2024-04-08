@@ -16,7 +16,7 @@ supplemental:
 bibtex: "@inproceedings{teso2022crisps,<br/>
   title={Efficient and Reliable Probabilistic Interactive Learning with Structured Outputs},<br/>
   author={Stefano Teso, Antonio Vergari,<br/>
-  journal={Proceedings of the AAAI-22 Workshop on Interactive Machine Learning (IML'22)},<br/>
+  booktitle={Proceedings of the AAAI-22 Workshop on Interactive Machine Learning (IML'22)},<br/>
   year={2022}
 }"
 ---

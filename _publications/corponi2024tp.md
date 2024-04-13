@@ -17,7 +17,7 @@ abstract: "Mood disorders (MDs) are among the leading causes of disease burden w
 supplemental: "https://www.nature.com/articles/s41398-024-02876-1#Sec21"
 bibtex: "@article{corponi2024automated,
   title={Automated mood disorder symptoms monitoring from multivariate time-series sensory data: Getting the full picture beyond a single number},
-  author={Corponi, Filippo and Li, Bryan M and Anmella, Gerard and Mas, Ariadna and Pacchiarotti, Isabella and Valentí, Marc and Grande, Iria and Benabarre, Antoni and Garriga, Marina and Vieta, Eduard and others},
+  author={Corponi, Filippo and Li, Bryan M and Anmella, Gerard and Mas, Ariadna and Pacchiarotti, Isabella and Valentí, Marc and Grande, Iria and Benabarre, Antoni and Garriga, Marina and Vieta, Eduard and Lawrie, Stephen M. and  Whalley, Heather C. and  Hidalgo-Mazzei, Diego and  Vergari, Antonio},
   journal={Translational Psychiatry},
   volume={14},
   number={1},

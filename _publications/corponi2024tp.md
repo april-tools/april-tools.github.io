@@ -3,7 +3,7 @@ collection: publications
 ref: "corponi2024tp"
 permalink: "publications/corponi2024tp"
 title:  "Automated mood disorder symptoms monitoring from multivariate time-series sensory data: getting the full picture beyond a single number"
-date:   2024-10-04 00:00
+date:   2024-04-10 00:00
 tags: wearables time_series mental_health
 image: "/images/papers/corponi2024tp/pipeline.png"
 spotlight: "/images/papers/corponi2024tp/pipeline-spotlight.png"

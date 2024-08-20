@@ -6,7 +6,6 @@ title:  "Automated mood disorder symptoms monitoring from multivariate time-seri
 date:   2024-04-10 00:00
 tags: wearables time_series mental_health
 image: "/images/papers/corponi2024tp/pipeline.png"
-spotlight: "/images/papers/corponi2024tp/pipeline-spotlight.png"
 authors: "Filippo Corponi, Bryan M. Li, Gerard Anmella, Ariadna Mas, Isabella Pacchiarotti, Marc Valentí, Iria Grande, Antoni Benabarre, Marina Garriga, Eduard Vieta, Stephen M. Lawrie, Heather C. Whalley, Diego Hidalgo-Mazzei, Antonio Vergari"
 paperurl: https://www.nature.com/articles/s41398-024-02876-1
 pdf: "https://www.nature.com/articles/s41398-024-02876-1"

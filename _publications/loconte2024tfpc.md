@@ -7,7 +7,7 @@ date:   2024-09-12 00:00
 tags: circuits probml tensor-networks
 image: "/images/papers/loconte2024tfpc/tf-pc.png"
 spotlight: "/images/papers/loconte2024tfpc/tf-pc-spotlight.png"
-authors: "Lorenzo Loconte*, Antonio Mari*, Gennaro Gala*, Robert Peharz, Cassio de Campos, Erik Quaeghebeur, Gennaro Vessio, Antonio Vergari"
+authors: "Lorenzo Loconte, Antonio Mari, Gennaro Gala, Robert Peharz, Cassio de Campos, Erik Quaeghebeur, Gennaro Vessio, Antonio Vergari"
 paperurl: "https://arxiv.org/abs/2409.07953v1"
 pdf: "https://arxiv.org/pdf/2409.07953v1"
 venue: "arXiv 2024"

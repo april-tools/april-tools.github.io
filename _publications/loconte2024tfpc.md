@@ -21,6 +21,5 @@ bibtex: "@misc{loconte2024relationshiptensorfactorizationscircuits,
       eprint={2409.07953},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2409.07953}, 
-}"
+      url={https://arxiv.org/abs/2409.07953}}"
 ---

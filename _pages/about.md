@@ -15,7 +15,7 @@ We are a research lab focused on investigating probabilistic models and programs
 <div class="research-tags">#probabilistic-modeling #neuro-symbolic-AI #constraints #tractable-inference #circuits</div>
 
 <div class="news-header">latest news</div>
-<div id="perma-news">✨✨✨ We are organizing a <a href="https://april-tools.github.io/colorai/"><b>workshop</b></a> and a <a href="https://april-tools.github.io/colorai/"><b>tutorial</b></a> on <b><i>connecting tensor factorizations and circuits</i></b> at AAAI-25! ✨✨✨
+<div id="perma-news">✨✨✨ We are organizing a <a href="https://april-tools.github.io/colorai/"><b>workshop</b></a> and a <a href="https://april-tools.github.io/aaai25-tf-pc-tutorial/"><b>tutorial</b></a> on <b><i>connecting tensor factorizations and circuits</i></b> at AAAI-25! ✨✨✨
 </div>
 <div id="latest-news-list">
   <ul>

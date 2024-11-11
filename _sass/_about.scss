@@ -5,13 +5,17 @@
 
   .news-header {
     margin: 0;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.4em;
     font-size: $type-size-3;
     color: mix(#fff, #000, 75%);
     font-weight: 900;
     font-style: italic;
   }
 
+  #perma-news{
+    margin-bottom: 0.4em;
+    text-align: center;
+  }
 
   .news-item-wrapper {
     width: 100%;

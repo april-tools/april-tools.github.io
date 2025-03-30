@@ -36,7 +36,7 @@ author_profile: true
   <ul id="alumni-list">
     {% for post in site.people reversed %}
         {% if post.role == "Alumnus"%}
-        <li> <a href="{{post.webpage}}">{{post.name}}</a> <b>[{{post.graduation}}]</b> <span><i>{{post.nextaffiliation}}</i></span>
+        <li> <a href="{{post.webpage}}">{{post.name}}</a> <b>[{{post.graduation}}]</b> <span><i>now {{post.nextaffiliation}}</i></span>
         </li>
         {% endif %}
     {% endfor %}

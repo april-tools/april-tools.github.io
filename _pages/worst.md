@@ -11,6 +11,5 @@ A collection of recent events and presentations done by <a href="https://april-t
 
 <div id="talk-list">
     {% for post in site.talks reversed %}
-        {% include archive-single-talk.html %}
     {% endfor %}
 </div>

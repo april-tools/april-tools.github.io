@@ -31,6 +31,18 @@ author_profile: true
   {% endfor %}
 </div>
 
+<h1>alumni</h1>
+<div id="alumni">
+  <ul id="alumni-list">
+    {% for post in site.people reversed %}
+        {% if post.role == "Alumnus"%}
+        <li> <a href="{{post.webpage}}">{{post.name}}</a> <b>[{{post.graduation}}]</b> <span><i>{{post.nextaffiliation}}</i></span>
+        </li>
+        {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+
 <h1>visitors & interns</h1>
 <div id="visitors-interns">
   <ul id="visitor-list">

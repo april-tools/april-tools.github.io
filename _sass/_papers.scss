@@ -355,6 +355,16 @@ pre, code{
     // visibility: hidden;
 }
 
+@media only screen and (max-width: 500px) {
+    .paper-pic {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        width:95%;
+        max-width:100px;
+    }
+  }
+
+
 
 // .paper-year {
 //     display: block;

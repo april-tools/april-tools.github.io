@@ -4,6 +4,7 @@
  .paper {
     display: inline-grid;
     /* grid-column-gap: 20px; */
+    grid-template-columns: auto auto;
     width: 100%;
 }
 
@@ -356,11 +357,11 @@ pre, code{
 }
 
 @media only screen and (max-width: 500px) {
-    .paper-pic {
-        grid-column-start: 1;
-        grid-column-end: 1;
-        width:95%;
-        max-width:100px;
+    .paper {
+        display: inline-grid;
+        /* grid-column-gap: 20px; */
+        grid-template-columns: auto;
+        width: 100%;
     }
   }
 

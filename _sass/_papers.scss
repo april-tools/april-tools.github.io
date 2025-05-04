@@ -363,6 +363,13 @@ pre, code{
         grid-template-columns: auto;
         width: 100%;
     }
+
+    .paper-image{
+        max-width: 95%;
+        overflow: hidden;
+        padding-bottom: 50px;
+        margin-top: 0px;
+    }
   }
 
 

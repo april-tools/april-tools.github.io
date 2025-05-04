@@ -6,7 +6,7 @@ title:  "Is Complex Query Answering Really Complex?"
 date:   2025-05-01 00:00
 tags: cqa knowledge-graphs
 image: "/images/papers/gregucci2025cqa/cqa.png"
-authors: " Antonio Vergari"
+authors: "Cosimo Gregucci, Bo Xiong, Daniel Hernández, Lorenzo Loconte, Pasquale Minervini, Steffen Staab, Antonio Vergari"
 paperurl: "https://openreview.net/forum?id=F8NTPAz5HH"
 pdf: "https://openreview.net/pdf?id=F8NTPAz5HH"
 venue: "ICML 2025"

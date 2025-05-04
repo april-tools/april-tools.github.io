@@ -368,7 +368,15 @@ pre, code{
         max-width: 95%;
         overflow: hidden;
         padding-bottom: 50px;
-        margin-top: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: -30px;
+    }
+
+    .paper-image img{
+        width: 250px;
+        overflow: hidden;
     }
   }
 

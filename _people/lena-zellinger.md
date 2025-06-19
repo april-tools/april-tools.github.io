@@ -5,7 +5,7 @@ permalink: "/people/lena-zellinger"
 title: 
 name:  "Lena Zellinger"
 date:   2024-09-09 00:00
-image: "/images/bio-photo-2.jpg"
+image: "/images/lena.jpg"
 role: "PhD Student"
-webpage: ""
+webpage: "https://lenazellinger.github.io/"
 ---

@@ -4,6 +4,7 @@
  .paper {
     display: inline-grid;
     /* grid-column-gap: 20px; */
+    grid-template-columns: auto auto;
     width: 100%;
 }
 
@@ -354,6 +355,31 @@ pre, code{
     padding-top: $margin-top-scroll-first !important;
     // visibility: hidden;
 }
+
+@media only screen and (max-width: 500px) {
+    .paper {
+        display: inline-grid;
+        /* grid-column-gap: 20px; */
+        grid-template-columns: auto;
+        width: 100%;
+    }
+
+    .paper-image{
+        max-width: 95%;
+        overflow: hidden;
+        padding-bottom: 50px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: -10px;
+    }
+
+    .paper-image img{
+        width: 250px;
+        overflow: hidden;
+    }
+  }
+
 
 
 // .paper-year {

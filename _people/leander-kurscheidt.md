@@ -7,5 +7,5 @@ name:  "Leander Kurscheidt"
 date:   2024-01-08 00:00
 image: "/images/people/leander.jpg"
 role: "PhD Student"
-webpage: ""
+webpage: "leanderK.github.io"
 ---

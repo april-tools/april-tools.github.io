@@ -10,6 +10,6 @@ role: "Alumnus"
 cosupervisor: "Pasquale Minervini, Edoardo Ponti"
 webpage: "https://emilevankrieken.com/"
 graduation: "PostDoc 2023-2025"
-nextaffiliation: "PostDoc at the Vrij Universiteit Amsterdam"
+nextaffiliation: "Assistant Professor at the Vrije Universiteit Amsterdam"
 ---
 
